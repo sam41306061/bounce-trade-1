@@ -1,2 +1,43 @@
-# bounce-trade-1
-project in Quant connect related to testing swing trading (bounce concept)
+### Swing Trading Algorithm – Sector-Rotational Bounce Strategy
+
+Over the past few months, I’ve been building and refining a **systematic swing trading algorithm** designed to identify **optimal bounce trade setups** across multiple equity sectors. The strategy targets **pullback entries in trending stocks**, applying both momentum and trend analysis to time high-probability reversals with risk-managed precision.
+
+#### 🛠️ Tech Stack & Architecture
+
+- **QuantConnect / Lean Engine** (Python-based)
+- Custom-built modules for:
+
+  - **Trend detection** (`TrendHandler`)
+  - **Momentum confirmation** (`MomentumHandler`)
+  - **Dynamic position sizing** (`PositionSizeHandler`)
+  - **Sector rotation** via ETF or industry constituents
+  - **Risk controls** including stop-loss triggers
+
+#### Strategy Highlights
+
+- **Multi-sector exposure**: Trades are filtered by trend strength across key sectors like Technology, Consumer Staples, Real Estate, Healthcare, Industrials, and Financials.
+- **Bounce trade logic**: Waits for a **pullback in a bullish/bearish trend**, then confirms with momentum shifts before entry.
+- **Modular risk management**: Position size and stop-loss thresholds are calculated per symbol using custom handlers.
+
+#### 🧪 Backtest Parameters
+
+- **Timeframe**: 2012–2024 (12 years of daily data)
+- **Capital**: \$10,000
+- **Resolution**: Daily bars
+
+#### 📊 Key Performance Metrics (hypothetical example)
+
+- **Annualized Return**: 18.6%
+- **Max Drawdown**: -7.2%
+- **Sharpe Ratio**: 1.34
+- **Win Rate**: 63%
+- **Avg Hold Period**: 4–7 days
+- **Trades / Year**: \~100–150
+
+#### 💡 Takeaways
+
+This project pushed my understanding of algorithmic trading, risk-adjusted performance, and modular system design. It also reinforced the importance of building **clean, reusable architecture**—each component of the algorithm (trend, momentum, risk) can evolve independently, enhancing testability and robustness.
+
+---
+
+If you're interested in trading automation, factor modeling, or backtesting with Python/QuantConnect, happy to chat or share insights!
