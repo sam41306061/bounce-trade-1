@@ -27,12 +27,12 @@ Over the past few months, I’ve been building and refining a **systematic swing
 
 #### 📊 Key Performance Metrics (hypothetical example)
 
-- **Annualized Return**: 18.6%
-- **Max Drawdown**: -7.2%
-- **Sharpe Ratio**: 1.34
-- **Win Rate**: 63%
-- **Avg Hold Period**: 4–7 days
-- **Trades / Year**: \~100–150
+- **Compounded Annualized Return**: 14.897%
+- **Max Drawdown**: -27.400%
+- **Sharpe Ratio**: .682
+- **Win Rate**: 67%
+- **PSR**: 16.926%
+- **Annual Variance**: .018
 
 #### 💡 Takeaways
 
